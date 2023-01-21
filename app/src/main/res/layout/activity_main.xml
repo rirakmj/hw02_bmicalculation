@@ -79,11 +79,10 @@
 
             <RadioButton
                 android:id="@+id/rbtnFemale"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="여자"
-                android:checked="true"/>
+                android:text="여자" />
 
             <RadioButton
                 android:id="@+id/rbtnMale"
@@ -154,4 +153,19 @@
         android:text="몸 상태 측정"
         android:padding="10dp"
         android:layout_margin="10dp"></Button>
+
+    <TextView
+        android:id="@+id/textResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"></TextView>
+
+    <TextView
+        android:id="@+id/textResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"></TextView>
+
 </LinearLayout>
